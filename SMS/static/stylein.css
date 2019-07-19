@@ -1,0 +1,194 @@
+body {
+  font-family: 'Lato';
+    padding-top: 50px;
+}
+
+.navbar{
+  height: auto;
+    background-color: black;
+    color:white;
+}
+
+.customnav li a{
+    color: white;
+}
+
+.customnav li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.navbar-brand{
+    height: auto;
+width: auto;
+}
+
+.navbar-brand{
+    color:white;
+}
+
+h1{
+    font-weight: 700;
+    font-family: 'Alexandria';
+}
+
+h2{
+    font-family:'Algerian';
+}
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-family: 'Montserrat';
+}
+
+.icon-bar{color: white;
+border-color: white;
+background-color: white;}
+
+
+.jumbotron {
+  background-image: url("/static/images/stock-mba1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: black;
+  height: 500px;
+  text-align: left;
+  margin: 0;
+}
+.jumbotron h1 {
+  background: white;
+  display: inline-block;
+  font-size: 1.1em;
+  margin-bottom: 0;
+  text-transform: uppercase;
+    padding:.5em
+}
+.jumbotron h2 {
+  background: white;
+  color:blacks;
+  display: inline-block;
+  font-size:0.90em;
+  font-weight: normal;
+  max-width: 66%;
+    padding:.75em 1.1em
+}
+
+
+.services {
+  margin-bottom: 15px;
+}
+
+
+.bg {
+  background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.problem{font-family: 'Times New Roman';}
+
+.text-secondary {
+  color: floralwhite;
+    font-family: Lithograph;
+    font-size: 50px;
+}
+
+.ani:hover{
+    transform:scale(1.2);
+    transition-duration:3s;
+}
+
+
+ul.social-buttons li a {
+  font-size: 20px;
+  line-height: 40px;
+  display: block;
+  width: 40px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: white;
+  border-radius: 40px;
+  outline: none;
+  background-color: black;
+}
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+  background-color: #fed136;
+}
+
+
+.icon{padding:15px;color:white;width:70px;background:white;border-radius:45px;}
+.icon:hover{background:lightgray;-webkit-transition:background 2s;}
+
+
+.copyright{
+    text-align: center;
+    background-color: dimgray;
+}
+
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: auto;
+    height: 100%;
+  }
+}
+
+.section-heading{
+    color:white;
+    text-align: center;
+    font-size: 1em;
+}
+.lead{color:white;
+text-align: center;
+
+}
+
+.footer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: black;
+  color: white;
+}
+
+
+.fborder{border: solid white;
+    padding: 20px;
+}
+
+.alert{
+  /* padding:15%;
+  margin-bottom: 20%;
+  border:1% dashed;
+  border-radius: 4%; */
+  width:40%;
+  margin-left:30%;
+}

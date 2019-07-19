@@ -1,0 +1,98 @@
+<html>
+<head>
+<title> SMS</title>
+
+
+<link href="/static/bootstrap1/css/bootstrap.min.css" rel="stylesheet">
+<script src="/static/bootstrap1/js/jquery.min.js"></script>
+<script src="/static/bootstrap1/js/bootstrap.min.js"></script>
+<link href="/static/fonta/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="/static/bootstrap/css/animate.css" rel="stylesheet">
+<script src="/static/bootstrap/js/jquery.min.js" type="text/javascript"></script>
+<script src="/static/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<link href="/static/stylein.css" rel="stylesheet"/>
+
+</head>
+     <body>
+       <nav class="navbar navbar-fixed-top ">
+   <div class="container-fluid">
+   <!-- Brand and toggle get grouped for better mobile display -->
+   <div class="navbar-header">
+   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" >
+   <span class="sr-only">Toggle navigation</span>
+   <span class="icon-bar"></span>
+   <span class="icon-bar"></span>
+   <span class="icon-bar"></span>
+   </button>
+   <a class="navbar-brand" href="{{ url_for('home') }}"> SMS Spam Classification</a>
+   </div>
+
+       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+   <ul class="nav navbar-nav navbar-right customnav">
+   <li><a href="{{ url_for('home') }}">Back</a></li>
+   <!-- <li><a href="{{ url_for('home') }}">Service</a></li>
+     <li><a href="{{ url_for('home') }}">Problem Statement</a></li>
+     <li><a href="{{ url_for('home') }}">Contact</a></li> -->
+
+
+         </ul>
+
+   </div><!-- /.navbar-collapse -->
+   </div><!-- /.container-fluid -->
+   </nav>
+
+
+          <!-- The video -->
+         <div class="container-fluid">
+         <div class="fullscreen-bg">
+    <video loop muted autoplay class="fullscreen-bg__video">
+        <source src="/static/images/clouds.mp4" type="video/mp4">
+
+    </video>
+             </div></div>
+
+         <br/>
+         <br/>
+
+
+           {% block code %}
+           {% endblock %}
+
+
+         <br/><br/><br/>
+               <br/><br/><br/>
+               <br/><br/>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h4 class="text-uppercase">Location</h4>
+            <p class="lead mb-0">Forsk Tehnologies
+              <br></p>
+          </div>
+          <div class="col-lg-6">
+            <h4 class="text-uppercase">Around the Web</h4>
+            <a href="https://twitter.com/forsklabs" target="_blank"><span class="fa fa-twitter fa-3x icon" style="color:blue;"></span></a> &nbsp; &nbsp; &nbsp;
+            <a href="https://www.facebook.com/forsklabs" target="_blank"><span class="fa fa-facebook fa-3x icon" style="color:blue;"></span></a> &nbsp; &nbsp; &nbsp;
+      		<a href="https://www.youtube.com/channel/UC01oec_kXIqP__GAaSi7npQ" target="_blank"><span class="fa fa-youtube fa-3x icon" style="color:red"></span></a>
+          </div>
+
+
+      </div>
+      </div>
+    </footer>
+
+
+
+    <div class="copyright">
+      <div class="container">
+          <em>Copyright &copy; 2018  <a href="index.php">SMS</a> &nbsp;| &nbsp;All Rights Reserved</em>
+      </div>
+        </div>
+
+
+
+    </body>
+</html>

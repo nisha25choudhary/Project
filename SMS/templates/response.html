@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block code %}
+{% if status == "Ham" %}
+<div class="alert alert-success" role="alert" width= 40% height=50%>
+  <center><h4 class="alert-heading">INFORMATION</<h4>
+    <br/>
+<p>  This is <strong>Ham</strong>.</p></center>
+</div>
+
+{% else %}
+
+<div class="alert alert-danger" role="alert" width= 40% height=50%>
+  <center><h4 class="alert-heading">INFORMATION</<h4>
+    <br>
+<p>  This is <strong>Spam</strong>.</p></center>
+</div>
+{% endif %}
+<br/><br/>
+<br/>
+<br/><br/>
+<br/><br/>
+
+{% endblock %}
